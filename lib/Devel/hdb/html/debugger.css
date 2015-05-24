@@ -64,6 +64,8 @@
 .program-code .code-line {
     font-size:0.875em;
     line-height: 1em;
+    padding: 0.0em;
+    overflow-x: visible;
 }
 
 .code {
