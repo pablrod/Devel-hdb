@@ -25,6 +25,18 @@
 .program-code .code-line:hover {
     background-color: rgba(0,0,0,0.05);
 }
+
+.higlighted-code:hover {
+    background-color: inherit
+}
+
+.higlighted-code {
+    padding-top: 0.0em !important;
+    padding-right: 0.0em !important;
+    padding-left: 0.0em !important;
+    overflow: visible !important;
+}
+
 .program-code .breakpoint .lineno span {
     background-color: rgb(255,0,0);
 }
@@ -64,8 +76,6 @@
 .program-code .code-line {
     font-size:0.875em;
     line-height: 1em;
-    padding: 0.0em;
-    overflow-x: visible;
 }
 
 .code {
